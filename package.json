@@ -1,0 +1,24 @@
+{
+  "author": "",
+  "dependencies": {
+    "lit": "^3.3.2"
+  },
+  "description": "",
+  "devDependencies": {
+    "@biomejs/biome": "2.4.3",
+    "@liveryvideo/biome-lit": "^2.3.0",
+    "@web/dev-server": "^0.4.6",
+    "@web/dev-server-esbuild": "^1.0.5"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "lit-web-components",
+  "scripts": {
+    "lint": "biome check && tsc",
+    "lint:fix": "biome check --fix",
+    "start": "web-dev-server --config web-dev-server.config.mjs --open --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
